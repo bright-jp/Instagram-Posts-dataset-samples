@@ -1,76 +1,76 @@
-# Instagram Posts Dataset Sample
+# Instagram投稿データセットサンプル
 
-<h2>A sample dataset of 7,730 records</h2>
+<h2>7,730件のレコードからなるサンプルデータセット</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.jp">
     <img src="https://github.com/luminati-io/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Instagram Posts Dataset Sample** includes **7,730 records** and was extracted using the **Bright Data API**.
+この**Instagram投稿データセットサンプル**には**7,730件のレコード**が含まれており、**Bright Data API**を使用して抽出されています。
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | The direct link to the Instagram post. |
-| `user_posted` | The username of the account that posted the content. |
-| `description` | The caption text accompanying the Instagram post. |
-| `hashtags` | List of hashtags used in the post, aiding in content discovery. |
-| `num_comments` | The total number of comments on the post. |
-| `date_posted` | The timestamp when the post was published. |
-| `likes` | The count of likes the post has received. |
-| `photos` | URLs to the photos included in the post. |
-| `videos` | URLs to the videos included in the post. |
-| `location` | Geographical location tagged in the post. |
-| `latest_comments` | Recent comments made on the post. |
-| `post_id` | A unique identifier for the Instagram post. |
-| `discovery_input` | Keywords or inputs used to discover the post. |
-| `has_handshake` | Indicates if the post is a part of a branded content partnership. |
-| `shortcode` | A shortened unique code for the post URL. |
-| `content_type` | The format of the post, e.g., photo, video, or carousel. |
-| `pk` | Primary key identifier for internal data processing. |
-| `content_id` | A system-generated ID for the content. |
-| `engagement_score_view` | A calculated metric representing the post's engagement. |
-| `thumbnail` | URL of the post's thumbnail image. |
-| `video_view_count` | The number of times the video has been viewed. |
-| `product_type` | Classification of the post, such as standard or branded content. |
-| `coauthor_producers` | Usernames of co-authors or producers associated with the post. |
-| `tagged_users` | List of users tagged in the post. |
-| `video_play_count` | The number of times the video has been played. |
-| `followers` | The number of followers the posting account has. |
-| `posts_count` | Total number of posts made by the user. |
-| `profile_image_link` | URL to the user's profile image. |
-| `is_verified` | Indicates if the user's account is verified by Instagram. |
-| `is_paid_partnership` | Denotes if the post is a paid partnership. |
-| `partnership_details` | Details of the partnership or collaboration. |
-| `user_posted_id` | Unique identifier for the user who posted the content. |
-| `post_content` | The main content of the post, including text and media. |
-| `audio` | Details about the audio used in the post. |
-| `profile_url` | URL to the user's Instagram profile. |
-| `videos_duration` | Length of video content in the post. |
-| `images` | Array of images related to the post. |
-| `alt_text` | Alternative text descriptions for the post's images. |
-| `photos_number` | The number of photos included in the post. |
-| `audio_url` | Link to audio used in the post. |
+| `url` | Instagram投稿への直接リンクです。 |
+| `user_posted` | コンテンツを投稿したアカウントのユーザー名です。 |
+| `description` | Instagram投稿に付随するキャプションテキストです。 |
+| `hashtags` | 投稿で使用されたハッシュタグのリストで、コンテンツの発見を支援します。 |
+| `num_comments` | 投稿のコメント総数です。 |
+| `date_posted` | 投稿が公開された日時（タイムスタンプ）です。 |
+| `likes` | 投稿が獲得した「いいね」の数です。 |
+| `photos` | 投稿に含まれる写真へのURLです。 |
+| `videos` | 投稿に含まれる動画へのURLです。 |
+| `location` | 投稿にタグ付けされた地理的ロケーションです。 |
+| `latest_comments` | 投稿に付いた最近のコメントです。 |
+| `post_id` | Instagram投稿の一意の識別子です。 |
+| `discovery_input` | 投稿を発見するために使用されたキーワードまたは入力値です。 |
+| `has_handshake` | 投稿がブランドコンテンツのパートナーシップの一部であるかどうかを示します。 |
+| `shortcode` | 投稿URLの短縮された一意コードです。 |
+| `content_type` | 投稿の形式（例：写真、動画、カルーセル）です。 |
+| `pk` | 内部のデータ処理に使用される主キー識別子です。 |
+| `content_id` | コンテンツに対してシステムが生成するIDです。 |
+| `engagement_score_view` | 投稿のエンゲージメントを表す算出指標です。 |
+| `thumbnail` | 投稿のサムネイル画像のURLです。 |
+| `video_view_count` | 動画の視聴回数です。 |
+| `product_type` | 標準またはブランドコンテンツなど、投稿の分類です。 |
+| `coauthor_producers` | 投稿に関連付けられた共同作成者またはプロデューサーのユーザー名です。 |
+| `tagged_users` | 投稿でタグ付けされたユーザーのリストです。 |
+| `video_play_count` | 動画の再生回数です。 |
+| `followers` | 投稿アカウントのフォロワー数です。 |
+| `posts_count` | ユーザーが行った投稿の総数です。 |
+| `profile_image_link` | ユーザーのプロフィール画像のURLです。 |
+| `is_verified` | ユーザーのアカウントがInstagramによって認証済みかどうかを示します。 |
+| `is_paid_partnership` | 投稿が有料パートナーシップであるかどうかを示します。 |
+| `partnership_details` | パートナーシップまたはコラボレーションの詳細です。 |
+| `user_posted_id` | コンテンツを投稿したユーザーの一意の識別子です。 |
+| `post_content` | テキストおよびメディアを含む、投稿の主要コンテンツです。 |
+| `audio` | 投稿で使用された音声に関する詳細です。 |
+| `profile_url` | ユーザーのInstagramプロフィールへのURLです。 |
+| `videos_duration` | 投稿内の動画コンテンツの長さです。 |
+| `images` | 投稿に関連する画像の配列です。 |
+| `alt_text` | 投稿画像の代替テキスト（説明）です。 |
+| `photos_number` | 投稿に含まれる写真の数です。 |
+| `audio_url` | 投稿で使用された音声へのリンクです。 |
 
 
 ## Use Cases
 
-### 1. Social Media Trend Analysis
-Analyze post engagement metrics to identify trending content and user preferences on Instagram.
+### 1. ソーシャルメディアトレンド分析
+投稿のエンゲージメント指標を分析し、Instagram上でトレンドとなっているコンテンツやユーザー嗜好を特定します。
 
-### 2. Influencer Marketing Strategy
-Utilize user and engagement data to select the most impactful influencers for brand collaborations.
+### 2. インフルエンサーマーケティング戦略
+ユーザー情報とエンゲージメントデータを活用して、ブランドコラボレーションに最も効果的なインフルエンサーを選定します。
 
-### 3. Competitive Analysis
-Monitor competitors' engagement and content strategies to refine your own social media approach.
+### 3. 競合分析
+競合のエンゲージメントやコンテンツ戦略をモニタリングし、自社のソーシャルメディア施策を洗練します。
 
 
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+データセットは複数の形式で利用可能です：
+- **CSV**（このサンプルに含まれます）
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -90,8 +90,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+データセットはさまざまなスケジュールで更新できます：
+- **Once**（単発配信）
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -100,14 +100,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+特定の要件に基づき、追加のデータポイントでデータセットを強化できます。カスタムのエンリッチメントオプションについてはお問い合わせください。
 
-**[Get the full Instagram Posts dataset](https://brightdata.com/products/datasets/instagram/posts)**
+**[Instagram投稿データセットの全量を入手する](https://brightdata.jp/products/datasets/instagram/posts)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## 研究者およびNGO向けの無料アクセス
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiativeは、環境および社会的課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)**および**[すぐに使えるデータセット](https://brightdata.jp/products/datasets)**への無料アクセスを提供しています。 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+無料アクセスの申請は[brightinitiative.com](https://brightinitiative.com)から行ってください。
