@@ -3,7 +3,7 @@
 <h2>7,730件のレコードからなるサンプルデータセット</h2>
 
 <a href="https://brightdata.jp">
-    <img src="https://github.com/luminati-io/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+    <img src="https://github.com/bright-jp/Instagram-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
 この**Instagram投稿データセットサンプル**には**7,730件のレコード**が含まれており、**Bright Data API**を使用して抽出されています。
